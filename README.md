@@ -18,8 +18,9 @@ Point clouds obtained from two different cameras are converted to the base coord
 
 - **PointCloudRecorder Class:** This is used to save point clouds to file. save, when the function is called the file name with fileName is opened, the point cloud given as a parameter is points are saved in this file.
 
+## How to transform points
+![Screenshot 2022-11-18 011822](https://user-images.githubusercontent.com/102357822/202654908-2b15b2e5-1b82-4887-803f-621a8e372ba8.png)
 
-To visualize the point cloud in 3D, use [CloudCompare](https://www.danielgm.net/cc/)
 
 # UML 
 ![Screenshot 2022-11-18 002141](https://user-images.githubusercontent.com/102357822/202562639-827016f5-5dca-4450-8da2-94ae2056d053.png)
@@ -40,7 +41,13 @@ For camera-2, xmin:0, xmax: 500, ymin:0, ymax: 500, zmin: -45, zmax:45)
 6. A single point by summing both point clouds create the cloud.
 7. Through PointCloudRecorder of point cloud save to file.
 
-# Other Creaters
+# Output Example
+
+To visualize the point cloud in 3D, use [CloudCompare](https://www.danielgm.net/cc/)
+
+![Screenshot 2022-11-18 012623](https://user-images.githubusercontent.com/102357822/202654603-a0ed8e35-4ce1-40b0-9739-a75e68d61795.png)
+
+# Other Creators
 
 - **[Hasan Yasen](https://github.com/ysnhasan1)**
 - **[Metin Konuk](https://github.com/MetinKONUK)**
